@@ -4,6 +4,10 @@ import './App.css';
 import AboutUs from './AboutUs';
 
 function App() {
+  /**
+  To deploy your react application in GitHub you need to install gh-pages. This allows you to use it as a tool for deploying your project to GitHub Pages. Perform given command in the terminal
+    npm install gh-pages --save-dev
+  */
   
   const [showProductList, setShowProductList] = useState(false);
 
